@@ -64,11 +64,13 @@ body {
    width: 320px;
     height: 700px;
     margin: 10px;
+	padding:10px;
     float: left;
     background-color: #ded5de;
     position: relative;
     display: inline-block;
     border: 2px solid white;
+	box-sizing:border-box;
 }
 
 p {
