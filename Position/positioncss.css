@@ -153,8 +153,8 @@ h1 {
 	border-left: 20px solid transparent;
 	border-bottom: 20px solid transparent;
 	position:absolute;
-    top: -3px;
-    right: -4px;
+        top: -7px;
+    right: -9px;
 }
 #tri2 {
 
@@ -164,8 +164,8 @@ h1 {
 	border-left: 20px solid red;
 	border-bottom: 20px solid transparent;
 	position:absolute;
-    top: -3px;
-    left: -4px;
+    top: -7px;
+    left: -9px;
 }
 
 #tri3 {
