@@ -1,0 +1,252 @@
+#Wrapper{
+    height: auto;
+    width: 1100px;
+    background:#e0c1d8;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+body {
+	background: #e0c1d8;
+	display: block;
+	margin: 8px;
+}
+
+#Header{
+	background: #f6efef;
+    width: 1003px;
+    height: 153px;
+    margin: 5px 34px;
+     border:4px solid pink;
+
+}
+
+#Logo{
+    display: inline-block;
+    height: 90px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+}
+
+ 
+#NavLink {
+    display: inline-block;
+    float: right;
+    margin: 80px 20px 0 0;
+}
+
+#Links li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 17px;
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 101px;
+    height: 23px;
+    text-align: center;
+   background-color: #eeceef;
+    }
+
+#Content {
+	
+	height: 715px;
+    width: 1028px;
+    margin: 0 auto;
+    padding: 0px;
+   
+}
+
+#SideLeft {
+   width: 320px;
+    height: 700px;
+    margin: 10px 10px 10px 0;
+    padding:10px;
+    background-color: #ded5de;
+    position: relative;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    vertical-align: top;
+
+}
+
+p {
+   
+    margin: 5px 5px 0 5px;
+    font: 14px Arial;
+    padding: 5px;
+     text-indent: 50px;
+    }
+
+#Center {
+    width: 320px;
+    height: 700px;
+    margin: 10px;
+    padding:10px;
+    background-color: #ded5de;
+    position: relative;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+#Center img {
+    margin: 5px 61px;
+}
+
+#SideRight {
+    width: 320px;
+    height: 700px;
+    background-color: #ded5de;
+    margin: 10px;
+    padding:10px;
+    display: inline-block;
+    border: 2px solid white;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    margin: 21px auto;
+    text-shadow: 0px 2px grey;
+}
+#Img1 {
+     position: absolute;
+    top: -15px;
+    left: -16px;
+    }
+ #Img2 {
+ 	position: absolute;
+    top: -15px;
+    right: -16px;
+ }
+
+ #Img3 {
+ 	position: absolute;
+    bottom: -10px;
+    left: -19px;
+}
+
+ #Img4 {
+ 	position: absolute;
+    bottom: -10px;
+    right: -19px;
+}
+
+#Footer{
+	width: 1003px;
+    height: auto;
+    background: #f9f9f9;
+    border: 2px solid pink;
+     margin: 8px 41px;
+}
+
+#tri1 {
+
+	width: 0;
+	height:0;
+	border-right: 20px solid red;
+	border-left: 20px solid transparent;
+	border-bottom: 20px solid transparent;
+	position:absolute;
+   top: -7px;
+    right: -10px;
+}
+#tri2 {
+
+	width: 0;
+	height:0;
+	border-right: 20px solid transparent;
+	border-left: 20px solid red;
+	border-bottom: 20px solid transparent;
+	position:absolute;
+    top: -7px;
+    left: -10px;
+}
+
+#tri3 {
+
+	width: 0;
+	height:0;
+	border-right: 20px solid transparent;
+	border-left: 20px solid red;
+	border-top: 20px solid transparent;
+	position:absolute;
+    bottom: -7px;
+    left: -10px;
+    }
+
+#tri4 {
+
+	width: 0;
+	height:0;
+	border-right: 20px solid red;
+	border-left: 20px solid transparent;
+	border-top: 20px solid transparent;
+	position:absolute;
+    bottom: -7px;
+    right: -10px;
+    }
+
+   #formcolumm1 {
+    display: inline-block;
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    }
+
+   #formcolumn2 {
+    display: inline-block;
+    vertical-align: top; 
+    margin: 10px;
+    padding: 10px;
+}
+
+label {
+    font-family: 'Gentium Basic', serif;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    margin: 7px;
+    padding: 4px
+}
+label#message {
+    margin-top: 0;
+    vertical-align: top;
+}
+label#recommend{
+    width: 200px;
+}
+
+input[type="text"] {
+    width: 300px;
+}
+input[type="number"] {
+    width: 300px;
+}
+
+h3 {
+    display: inline-block;
+    /* margin-left: 138px; */
+    margin-left: 364px;
+    font-family: cursive;
+    font-size: 25px;
+    text-shadow: 2px 2px #d9d1d1;
+}
+
+
+li {
+    list-style: none;
+    font: 13px verdana;
+}
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
