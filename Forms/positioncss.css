@@ -245,3 +245,7 @@ textarea {
 	margin-top: 8px;
 	font-size: 14px;
 }
+
+select {
+    height: 25px;
+}
