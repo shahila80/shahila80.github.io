@@ -310,11 +310,10 @@ select {
 
 input[type="submit"]
 {
-    border: 2px solid #a3ceda;
+    border: 2px solid #c166a6;
     border-radius: 5px;
     padding: 10px;
-    /* font-size: 14px !important; */
-    background-color: #c4f1fe;
+    background-color: #f19ac7;
     font-weight: bold;
     width: 100px;
     color: #2d525d;
