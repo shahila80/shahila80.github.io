@@ -383,6 +383,7 @@ img.gallery{
 
       width: 130px;
     height: 131px;
+    border:2px solid white;
 }
 th {
     color: white;
