@@ -417,6 +417,6 @@ table {
     -o-transform: scale(3.6);
     -ms-transform: scale(3.6);
     transform: scale(3.6);
-    position:absolute;
+    position:relative;
     z-index: 1;
   }
