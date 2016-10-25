@@ -11,7 +11,7 @@
 <form>
 	
 <h2>Sign Up</h2>
-<p>It's free and always be</p>
+<p>It's free and always will be.</p>
 
 	<section id="Name">
 
@@ -19,17 +19,19 @@
 			<label id="FirstName"> </label>
 			<input type="text" name="FirstName" placeholder="First Name">
 			<label id="LastName"></label>
-			<input type="text" name="LastName" placeholder="Last Name"><br>
+			<input type="text" name="LastName" class="Lname" placeholder="Last Name"><br>
 			<label id="Email"></label>  
-			<input type="text" name="Email" placeholder="Re-enter email or mobile number"><br>
+			<input type="text" name="Email" class="email" placeholder="Email or mobile number"><br>
+			<label id="ReenterEmail"></label>  
+			<input type="text" name="Email" class="email" placeholder="Re-enter email or mobile number"><br>
 			<label id="Password"></label>
-			<input type="password" name="psw" placeholder="New Password">
+			<input type="password" class="email" name="psw" placeholder="New Password">
 
 		</div>
 	</section>
 
 	<section id="Birthday">
-	 	<p>Birthday</p>
+	 	<p class="bday">Birthday</p>
 
 	 	<select>
     	<option value="Month">Month</option>
@@ -40,17 +42,17 @@
     	<select>
     	<option value="Year">Year</option>
     	</select>
-    	<p>Why do I need to provide my birthday</p>
+    	<p class="bday2">Why do I need to provide my birthday?</p>
 	</section>
 
     <section id=Options>
-    	<input type="radio" name="method" value="Female">Female
+    	<input type="radio" name="method" value="Female"> Female
   	    <input type="radio" name="method" value="Male">Male
     </section>
 
     <section id="sign">
-    <p>By clicking Sign Up, you agree to our Terms and that you have read on our Data Policy, including our Data UISe</p>
-    <input type="submit">
+    <p class="sign">By clicking Sign Up, you agree to our <span>Terms</span> and that you have read on our <span>Data Policy</span>, including our <span>Cookie Use</span></p>
+    <input type="submit" value="Sign Up">
     </section>
 
 </form>
