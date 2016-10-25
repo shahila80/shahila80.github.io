@@ -1,16 +1,88 @@
 *{
 	margin:0;
+	padding: 0;
 }
 
 body{
 	background-color: black;
+	line-height: 1.34;
 }
 
 form {
-   margin: 0 auto;
-    width: 480px;
-    background: white;
-    padding: 5px 60px 5px 20px;
+   margin: 50px auto;
+   padding:25px 68px;
+    width: 550px;
+    background: linear-gradient(white, #D3D8E8);
     box-sizing: border-box;
-  
+}
+h2{
+	font-size: 36px;
+	font-family: Helvetica;
+}
+
+p {
+	font-size: 18px;
+	font-family: arial;
+	margin-bottom: 15px;
+}
+p.bday {
+    margin-bottom: 5px;
+}
+input {
+
+	border-radius: 5px;
+    padding: 8px 5px;
+    font-size: 16px;
+    margin: 1px 0px 10px;
+    width: 164px;
+    border: 1px solid #bdc7d8;
+}
+
+input.Lname {
+    margin-left: 10px;
+}
+input.email {
+    width: 355px;
+}
+select{
+	padding: 8px;
+    display: inline-block;
+    margin-right: -4px;
+}
+
+p.bday2 {
+    margin-left: 15px;
+    margin-bottom: 2px;
+    width: 113px;
+    display: inline-block;
+    font-size: 10px;
+    color: #365899;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    width: 30px;
+    margin-top: 14px;
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
+section#Options {
+    font-family: arial;
+    font-size: 13px;
+    }
+   
+ p.sign{
+ 	font-size: 11px;
+ 	 margin-top: 5px;
+    margin-right: 87px;
+ }
+ span{
+ 	color:#365899;
+ }
+
+ input[type="submit"] {
+    background: linear-gradient(#79bc64, #578843);
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
 }
