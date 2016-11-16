@@ -63,13 +63,13 @@ button.btn.btn-default {
 
 form.form-inline {
     position: absolute;
-    left: 361px;
+    left: 170px;
     margin: 20px;
     padding: 20px;
     border: 1px solid #f3efef;
     background-color: #e2dfdf;
     border-radius: 9px;
-    top: 37px;
+    top: 15px;
 }
 
 .container.places {
