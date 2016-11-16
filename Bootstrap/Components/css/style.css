@@ -1,0 +1,109 @@
+
+
+.container-fluid.wallpaper {
+	background-image: url("../images/img3.jpg");
+	height:575px;
+	background-repeat:no-repeat;
+	background-size: cover;
+	
+}
+
+pull-left{
+	float:left;
+}
+
+pull-right{
+	float: right;
+}
+
+.container-fluid.top_header {
+    height: 25px;
+    line-height: 2;
+        background-color: #fff;
+    color: #888585;
+}
+.col-md-12.navbar {
+    margin-left: 36%;
+}
+
+.contact_no.pull-left {
+    margin-right: 15px;
+}
+
+.col-sm-6.contact {
+    font-size: 14px;
+}
+
+.col-sm-6.social {
+    margin-top: 8px;
+}
+
+i.fa.fa-twitter.fa-lg.pull-right {
+    margin-right: 30px;
+}
+
+i.fa.fa-facebook.fa-lg.pull-right {
+    margin-right: 15px;
+}
+
+i.fa.fa-instagram.fa-lg.pull-right {
+    margin-right: 15px;
+}
+
+.jumbotron {
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+	font-family: 'Voltaire', sans-serif;
+	margin-top: 10%;
+}
+
+button.btn.btn-default {
+    margin-top: 25px;
+}
+
+form.form-inline {
+    position: absolute;
+    left: 361px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #f3efef;
+    background-color: #e2dfdf;
+    border-radius: 9px;
+    top: 37px;
+}
+
+.container.places {
+    padding: 20px;
+    margin-top: 60px; 
+}
+
+h2.lined-heading {
+    text-align: center;
+    font-family: voltaire,sans-serif;
+    margin: 16px;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+.container-fluid.bottom {
+    background-color: #eee;
+    margin-top: 50px;
+}
+
+th {
+    background-color: #383e5e;
+    color: wheat;
+}
+
+caption {
+    text-align: center;
+    font-family: voltaire,sans-serif;
+    font-weight: bolder;
+    font-size: 21px;
+    margin: 5px;
+    padding: 9px;
+}
